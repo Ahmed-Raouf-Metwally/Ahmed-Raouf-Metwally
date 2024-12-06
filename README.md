@@ -190,8 +190,7 @@ func main() {
     <img width="40%" src="https://holopin.me/amajaying3" />
   </a>
 </p>
-<p align="center"><img src="https://stardev.io/developers/Ahmed-Raouf-Metwally
-/badge/languages/global.svg" width="100%"></p>
+<p align="center"><img src="https://stardev.io/developers/Ahmed-Raouf-Metwally/badge/languages/global.svg" width="100%"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhYzJkMmQ2MWQ3ZGY3MDhjZTE3MDI2Mzk3NzE1OWQyZTRlMmYwMCZjdD1z/iY8CRBdQXODJSCERIr/giphy.gif" width=5% valign="bottom"> Github Profile States
