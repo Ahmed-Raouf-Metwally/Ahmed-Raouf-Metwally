@@ -106,10 +106,7 @@ func main() {
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
-    
-  </tr>
-  <tr>
-        <td align="center" width="96">
+    <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="Rest API" />
       <br>Rest API
         </td>
@@ -125,6 +122,8 @@ func main() {
         <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="50" height="50" />
       <br>Nginx
     </td>
+  </tr>
+  <tr>
      </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="50" height="50" />
@@ -134,8 +133,6 @@ func main() {
         <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
     </td>
-  </tr>
-  <tr>
     <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=gitlab" width="48" height="48" alt="GitLab" />
       <br>GitLab
@@ -160,17 +157,16 @@ func main() {
         <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jquery" />
       <br>JQuery
     </td>
-      
-  </tr>
-   <tr>
-     <td align="center" width="96">
+       <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="jquery" />
       <br>PostgreSQL
     </td>
-            <td align="center" width="96">
+     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET Core" />
       <br>ASP.NET
     </td>
+  </tr>
+   <tr>
          <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
       <br>Postman
@@ -179,10 +175,8 @@ func main() {
         <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
       <br>Linux
     </td>
-    
   </tr>
- <tr>
- </tr>
+  
 </table>
  
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
