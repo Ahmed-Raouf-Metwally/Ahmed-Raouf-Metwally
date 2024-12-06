@@ -23,11 +23,11 @@ package main
 import "fmt"
 
 type Person struct {
-  name string
+  name     string
   username string
-  age int
-  hobbies []string
-  job string
+  age      int
+  hobbies  []string
+  job      string
 }
 
 func main() {
@@ -35,9 +35,9 @@ func main() {
 
   me.name     = "Ahmed Raouf"
   me.username = "Ahmed-Raouf-Metwally"
-  me.age      = "26"
+  me.age      = 26
   me.job      = "Backend developer | Web developer"
-  me.hobbies  = []string{"code", "anime", "music"," gaming"}
+  me.hobbies  = []string{"code", "anime", "music", "gaming"}
 
   fmt.Println(me)
 }
