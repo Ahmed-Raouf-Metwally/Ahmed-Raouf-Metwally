@@ -4,7 +4,7 @@
  <tr>
     <td>
       <br>
-     <p align="center"><img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Ahmed Raouf;"/>
+     <p align="center"><img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Ahmed_Raouf;"/>
      <img width="150" align="center" src="https://visitcount.itsvg.in/api?id=Ahmed-Raouf-Metwally&icon=10&color=13" alt="Ahmed-Raouf-Metwally"/>
       <br>
       <img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=Ahmed-Raouf-Metwally&data=followers,repositories,stars,commits&theme=viridescent"/>
@@ -32,16 +32,17 @@ type Person struct {
 
 func main() {
   var me = new(Person)
-  
+
   me.name     = "Ahmed Raouf"
   me.username = "Ahmed-Raouf-Metwally"
   me.age      = "26"
   me.job      = "Backend developer | Web developer"
   me.hobbies  = []string{"code", "anime", "music"," gaming"}
-  
+
   fmt.Println(me)
 }
 ```
+
 <!--- <a href="https://api.daily.dev/get?r=CyberCarboon2"><img src="https://opencollective.com/vuejs/contributors.svg?width=900" /></a> -->
 <!--- <p align='center'><a href="https://api.daily.dev/get?r=Ahmed-Raouf-Metwally"> -->
 
@@ -57,7 +58,7 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-## <img src="https://media4.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif?cid=ecf05e47ak6mwfu812269zzr8ydv529109qzpb8rszwnja9e&rid=giphy.gif&ct=s" width=10%>Spent My Time 
+## <img src="https://media4.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif?cid=ecf05e47ak6mwfu812269zzr8ydv529109qzpb8rszwnja9e&rid=giphy.gif&ct=s" width=10%>Spent My Time
 
 <p align="center">
     <a href="https://github.com/Ahmed-Raouf-Metwally">
@@ -195,7 +196,6 @@ func main() {
 
 ## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhYzJkMmQ2MWQ3ZGY3MDhjZTE3MDI2Mzk3NzE1OWQyZTRlMmYwMCZjdD1z/iY8CRBdQXODJSCERIr/giphy.gif" width=5% valign="bottom"> Github Profile States
 
-
 <p align="center">
 <a href="https://github.com/Ahmed-Raouf-Metwally"> <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmed-Raouf-Metwally&theme=dark&border_radius=10&hide_title=true&layout=compact&langs_count=20" alt="GitHub language stats" /><img width="57%" src="https://github-readme-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
   </a>
@@ -204,8 +204,8 @@ func main() {
 - Note : **Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.**
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-
 ### 📊 GitHub States
+
 <p align="center">
 <a href="https://github.com/Ahmed-Raouf-Metwally"><img width="35%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=dark&combine_all_yearly_contributions=true" /><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Raouf-Metwally&theme=dark&hide_border=false" />
  </a></p>
