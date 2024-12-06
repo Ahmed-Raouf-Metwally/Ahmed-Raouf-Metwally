@@ -106,7 +106,10 @@ func main() {
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
-          <td align="center" width="96">
+    
+  </tr>
+  <tr>
+        <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="Rest API" />
       <br>Rest API
         </td>
@@ -127,12 +130,12 @@ func main() {
         <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="50" height="50" />
       <br>Docker
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
     </td>
+  </tr>
+  <tr>
     <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=gitlab" width="48" height="48" alt="GitLab" />
       <br>GitLab
@@ -157,7 +160,10 @@ func main() {
         <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jquery" />
       <br>JQuery
     </td>
-        <td align="center" width="96">
+      
+  </tr>
+   <tr>
+     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="jquery" />
       <br>PostgreSQL
     </td>
@@ -173,9 +179,6 @@ func main() {
         <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
       <br>Linux
     </td>
-  </tr>
-   <tr>
-   
     
   </tr>
  <tr>
@@ -188,7 +191,7 @@ func main() {
 
 <p align="center">
     <a href="https://github.com/Ahmed-Raouf-Metwally">
-          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+          <img width="75%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
     <img width="40%" src="https://holopin.me/amajaying3" />
   </a>
 </p>
