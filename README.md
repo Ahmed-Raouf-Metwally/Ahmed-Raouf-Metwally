@@ -188,8 +188,7 @@ func main() {
 
 <p align="center">
     <a href="https://github.com/Ahmed-Raouf-Metwally">
-          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally
-&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
     <img width="40%" src="https://holopin.me/amajaying3" />
   </a>
 </p>
@@ -201,9 +200,7 @@ func main() {
 
 
 <p align="center">
-<a href="https://github.com/Ahmed-Raouf-Metwally"> <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmed-Raouf-Metwally
-&theme=dark&border_radius=10&hide_title=true&layout=compact&langs_count=20" alt="GitHub language stats" /><img width="57%" src="https://github-readme-stats.vercel.app/api?username=Ahmed-Raouf-Metwally
-&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
+<a href="https://github.com/Ahmed-Raouf-Metwally"> <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmed-Raouf-Metwally&theme=dark&border_radius=10&hide_title=true&layout=compact&langs_count=20" alt="GitHub language stats" /><img width="57%" src="https://github-readme-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
   </a>
 </p>
 
@@ -213,8 +210,7 @@ func main() {
 
 ### 📊 GitHub States
 <p align="center">
-<a href="https://github.com/Ahmed-Raouf-Metwally"><img width="35%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally
-&limit=5&theme=dark&combine_all_yearly_contributions=true" /><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Raouf-Metwally&theme=dark&hide_border=false" />
+<a href="https://github.com/Ahmed-Raouf-Metwally"><img width="35%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=dark&combine_all_yearly_contributions=true" /><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Raouf-Metwally&theme=dark&hide_border=false" />
  </a></p>
 <p align="center">
 <a href="https://github.com/Ahmed-Raouf-Metwally">
