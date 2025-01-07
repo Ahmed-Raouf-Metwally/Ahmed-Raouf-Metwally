@@ -68,12 +68,13 @@ func main() {
 </p>
 <br>
 
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 ## 🤷‍♂️ Vistors Count
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Ahmed-Raouf-Metwally/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/Ahmed-Raouf-Metwally/count.svg?" width="40%" />
 </div>
-
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px>My Favorite Tools And Technologies ⚙️
@@ -188,7 +189,8 @@ func main() {
 <p align="center">
     <a href="https://github.com/Ahmed-Raouf-Metwally">
           <img width="75%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
-    <img width="40%" src="https://holopin.me/amajaying3" />
+    <img width="50%" src="https://holopin.me/ahmedraoufmetwally" />
+    <!-- <img width="40%" src="https://holopin.me/amajaying3" /> -->
   </a>
 </p>
 <p align="center"><img src="https://stardev.io/developers/Ahmed-Raouf-Metwally/badge/languages/global.svg" width="100%"></p>
@@ -207,11 +209,13 @@ func main() {
 ### 📊 GitHub States
 
 <p align="center">
-<a href="https://github.com/Ahmed-Raouf-Metwally"><img width="35%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=dark&combine_all_yearly_contributions=true" /><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Raouf-Metwally&theme=dark&hide_border=false" />
+<a href="https://github.com/Ahmed-Raouf-Metwally"><img width="35%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Ahmed-Raouf-Metwally&theme=dark" />
  </a></p>
 <p align="center">
 <a href="https://github.com/Ahmed-Raouf-Metwally">
-<img width="50%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ahmed-Raouf-Metwally&theme=dark" /><img width="40%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmed-Raouf-Metwally&bg_color=1a1b27&color=aa82d9&line=628edb&point=64bfaf&area=true&hide_border=true)(https://github.com/ashutosh00710/github-readme-activity-graph)" />
+<img width="50%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ahmed-Raouf-Metwally&theme=dark" />
+<img width="40%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmed-Raouf-Metwally&bg_color=1a1b27&color=aa82d9&line=628edb&point=64bfaf&area=true&hide_border=true)(https://github.com/Ahmed-Raouf-Metwally/github-readme-activity-graph)" />
   </a>
 </p>
 
@@ -221,7 +225,7 @@ func main() {
 
 <div align="center">
   <a href="https://open.spotify.com/user/31rgo6rhkc4545vgg76tmeq7kehq">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31rgo6rhkc4545vgg76tmeq7kehq&count=5" alt="Spotify recently played"  />
+    <img  src="https://spotify-recently-played-readme.vercel.app/api?user=31rgo6rhkc4545vgg76tmeq7kehq&count=5" alt="Spotify recently played"  />
   </a>
 </div>
 
