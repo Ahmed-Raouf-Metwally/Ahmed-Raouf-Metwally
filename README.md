@@ -5,11 +5,11 @@
     <td>
       <br>
      <p align="center"><img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Ahmed_Raouf;"/>
-     <img width="150" align="center" src="https://visitcount.itsvg.in/api?id=Ahmed-Raouf-Metwally&icon=10&color=13" alt="Ahmed-Raouf-Metwally"/>
+       <img width="150" align="center" src="https://visitor-badge.laobi.icu/badge?page_id=Ahmed-Raouf-Metwally.Ahmed-Raouf-Metwally&"  />
       <br>
       <img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=Ahmed-Raouf-Metwally&data=followers,repositories,stars,commits&theme=viridescent"/>
     <td>
-      <img alt="gif" src="./assets/images/demon-sleyar.gif">
+      <img alt="gif" src="./assets/images/javascript.gif">
    </td>  
  </tr>  
 </table>
@@ -66,12 +66,13 @@ func main() {
     <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" />
   </a>
 </p>
-
 <br>
-<p align="center"><a href="https://github.com/avinal/Profile-Readme-WakaTime"><img src="https://github.com/Ahmed-Raouf-Metwally
-/Ahmed-Raouf-Metwally
-/blob/main/images/stat.svg" alt="Ahmed-Raouf-Metwally
- WakaTime Activity" align=center/></a></p>
+
+## 🤷‍♂️ Vistors Count
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/Ahmed-Raouf-Metwally/count.svg?"  />
+</div>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
@@ -216,6 +217,18 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
+### 🎶 Spotify Recently Played
+
+<div align="center">
+  <a href="https://open.spotify.com/user/31rgo6rhkc4545vgg76tmeq7kehq">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31rgo6rhkc4545vgg76tmeq7kehq&count=5" alt="Spotify recently played"  />
+  </a>
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
+### 📊 GitHub States
+
 <!-- Contribution Snake -->
 <p align="center"><img src="./assets/images/github-contribution-grid-snake.svg"></p>
 
@@ -224,3 +237,6 @@ func main() {
 <!-- Footer -->
 
 <img src="./assets/images/Footer.jpg">
+
+<div align="center">
+</div>
