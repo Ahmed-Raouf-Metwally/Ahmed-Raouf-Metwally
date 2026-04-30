@@ -266,10 +266,13 @@ func main() {
   <img width="88%" src="https://github-profile-trophy.vercel.app/?username=Ahmed-Raouf-Metwally&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub trophies" />
 </p>
 
-<div align="center">
-  <img width="52%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top contributed repositories" />
-  <img width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ahmed-Raouf-Metwally&theme=tokyonight" alt="GitHub profile summary" />
-</div>
+<p align="center">
+  <img width="62%" src="https://github-contributor-stats.vercel.app/api?username=Ahmed-Raouf-Metwally&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top contributed repositories" />
+</p>
+
+<p align="center">
+  <img width="76%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ahmed-Raouf-Metwally&theme=tokyonight" alt="GitHub profile summary" />
+</p>
 
 <p align="center">
   <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmed-Raouf-Metwally&bg_color=1a1b27&color=70a5fd&line=38bdae&point=bf91f3&area=true&hide_border=true" alt="GitHub activity graph" />
