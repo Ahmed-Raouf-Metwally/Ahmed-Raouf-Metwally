@@ -24,7 +24,11 @@
   <img width="76%" src="./assets/images/javascript.gif" alt="Coding animation" />
 </p>
 
-## Professional Summary
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="36" alt="Coder animation" /> Professional Summary
 
 I am a Backend Software Engineer who builds reliable APIs, business systems, automation scripts, and full-stack features. I care about clean architecture, readable code, strong data modeling, and software that is easy to maintain after the first release. Basically: I try to make the backend boring in production, which is the highest compliment a backend can receive.
 
@@ -34,6 +38,10 @@ I am a Backend Software Engineer who builds reliable APIs, business systems, aut
 - Comfortable moving between backend logic, database design, frontend integration, debugging, automation, and deployment workflows.
 - Interested in scalable backend practices, DevOps, design patterns, system design, and developer productivity.
 - Professional bug negotiator: I listen to errors, disagree respectfully, then fix the root cause.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
 
 ## Quick Facts
 
@@ -46,7 +54,7 @@ I am a Backend Software Engineer who builds reliable APIs, business systems, aut
   </tr>
 </table>
 
-## What I Build
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30" alt="Tools animation" /> What I Build
 
 | Area | What I deliver |
 | --- | --- |
@@ -55,6 +63,10 @@ I am a Backend Software Engineer who builds reliable APIs, business systems, aut
 | Database work | Schema design, SQL queries, MongoDB models, data relationships, reporting needs, and performance-minded access patterns. |
 | Full-stack features | API-to-UI implementation with React, Next.js, Tailwind, Bootstrap, jQuery, and practical UX decisions. |
 | Automation | Scripts that save time, reduce repeated work, and politely stop humans from doing robot chores. |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
 
 ## Current Focus
 
@@ -78,7 +90,11 @@ Deployment     Calm face, careful checks, suspiciously refreshed dashboards
 After hours    Anime, music, gaming, and learning something I will absolutely use later
 ```
 
-## Tech Stack
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32" alt="Tech animation" /> Tech Stack
 
 ### Core Languages
 
@@ -147,7 +163,11 @@ After hours    Anime, music, gaming, and learning something I will absolutely us
 
 </details>
 
-## Experience Highlights
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhYzJkMmQ2MWQ3ZGY3MDhjZTE3MDI2Mzk3NzE1OWQyZTRlMmYwMCZjdD1z/iY8CRBdQXODJSCERIr/giphy.gif" width="34" alt="Analytics animation" /> Experience Highlights
 
 | Experience | Highlights |
 | --- | --- |
@@ -155,6 +175,10 @@ After hours    Anime, music, gaming, and learning something I will absolutely us
 | Backend Developer | Worked with Node.js, Express.js, APIs, MongoDB, JavaScript, TypeScript, and backend service logic. |
 | Full-stack Training | Completed full-stack development practice with Route, covering frontend, backend, APIs, and project delivery. |
 | Scrum Master Practice | Supported planning, coordination, task clarity, and iterative delivery habits. |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
 
 ## Developer Personality
 
@@ -206,7 +230,11 @@ func main() {
 }
 ```
 
-## Connect With Me
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/handShake.gif" width="48" alt="Handshake animation" /> Connect With Me
 
 <div align="center">
   <a href="mailto:ahmedraouf.metwally@gmail.com" target="_blank">
@@ -247,7 +275,11 @@ func main() {
   </a>
 </div>
 
-## GitHub Analytics
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhYzJkMmQ2MWQ3ZGY3MDhjZTE3MDI2Mzk3NzE1OWQyZTRlMmYwMCZjdD1z/iY8CRBdQXODJSCERIr/giphy.gif" width="34" alt="Stats animation" /> GitHub Analytics
 
 <div align="center">
   <a href="https://github.com/Ahmed-Raouf-Metwally">
@@ -286,6 +318,10 @@ func main() {
   Top languages are based on public repositories and do not represent total experience or skill level.
 </blockquote>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
 ## Badges and Visitors
 
 <div align="center">
@@ -295,13 +331,21 @@ func main() {
   <img src="https://img.shields.io/badge/Profile%20views-3000%2B-38bdae?style=for-the-badge" alt="Profile views 3000+" />
 </div>
 
-## Coding Activity
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
+
+## <img src="https://media4.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif?cid=ecf05e47ak6mwfu812269zzr8ydv529109qzpb8rszwnja9e&rid=giphy.gif&ct=s" width="54" alt="Coding time animation" /> Coding Activity
 
 <p align="center">
   <a href="https://github.com/Ahmed-Raouf-Metwally">
     <img width="64%" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=ahmedRaouf&hide_title=true&hide_border=true&langs_count=6&bg_color=00000000&text_color=777" alt="Wakatime stats" />
     <img width="28%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Computer illustration" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
 </p>
 
 ## Music While Coding
@@ -311,6 +355,10 @@ func main() {
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=31rgo6rhkc4545vgg76tmeq7kehq&count=5" alt="Spotify recently played" />
   </a>
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
 
 ## Contribution Flow
 
@@ -325,5 +373,9 @@ func main() {
 </div>
 
 <br />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" alt="Rainbow divider" />
+</p>
 
 <img width="100%" src="./assets/images/Footer.jpg" alt="Footer" />
