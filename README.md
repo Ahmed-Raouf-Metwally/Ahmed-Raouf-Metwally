@@ -12,7 +12,7 @@
   <a href="https://www.linkedin.com/in/ahmed-abdul-raouf/">
     <img src="https://img.shields.io/badge/LinkedIn-Ahmed%20Raouf-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Ahmed-Raouf-Metwally&style=flat-square&color=38bdae" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Profile%20views-3000%2B-38bdae?style=flat-square" alt="Profile views 3000+" />
   <br />
   <br />
   <img width="360" src="https://github-widgetbox.vercel.app/api/profile?username=Ahmed-Raouf-Metwally&data=followers,repositories,stars,commits&theme=viridescent" alt="Ahmed Raouf GitHub profile widget" />
@@ -20,7 +20,9 @@
 
 <br />
 
-<img align="right" width="34%" src="./assets/images/javascript.gif" alt="Coding animation" />
+<p align="center">
+  <img width="76%" src="./assets/images/javascript.gif" alt="Coding animation" />
+</p>
 
 ## Professional Summary
 
@@ -32,8 +34,6 @@ I am a Backend Software Engineer who builds reliable APIs, business systems, aut
 - Comfortable moving between backend logic, database design, frontend integration, debugging, automation, and deployment workflows.
 - Interested in scalable backend practices, DevOps, design patterns, system design, and developer productivity.
 - Professional bug negotiator: I listen to errors, disagree respectfully, then fix the root cause.
-
-<br clear="right" />
 
 ## Quick Facts
 
@@ -289,7 +289,7 @@ func main() {
   <img width="48%" src="https://holopin.me/ahmedraoufmetwally" alt="Holopin badges" />
   <br />
   <br />
-  <img width="34%" src="https://profile-counter.glitch.me/Ahmed-Raouf-Metwally/count.svg?" alt="Visitor count" />
+  <img src="https://img.shields.io/badge/Profile%20views-3000%2B-38bdae?style=for-the-badge" alt="Profile views 3000+" />
 </div>
 
 ## Coding Activity
