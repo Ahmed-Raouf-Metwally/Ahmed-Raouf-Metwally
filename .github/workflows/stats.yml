@@ -1,4 +1,4 @@
-# Refreshes assets/stats.svg once a day. Add a STATS_TOKEN secret to include private repos;
+# Refreshes assets/stats.svg and assets/coding.svg (WakaTime) once a day. Add a STATS_TOKEN secret to include private repos;
 # without it the card counts public repos only.
 name: Refresh GitHub stats
 
@@ -22,10 +22,11 @@ jobs:
       - run: python scripts/stats.py
         env:
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+      - run: python scripts/waka.py
       - name: Commit stats card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
+          git add assets/stats.svg assets/coding.svg
           git diff --cached --quiet || git commit -m "chore: refresh stats card"
           git push

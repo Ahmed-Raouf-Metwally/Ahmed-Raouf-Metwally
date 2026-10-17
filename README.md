@@ -158,9 +158,9 @@ The shape behind Orbex, Tarteel AI, Stockship and Akfeek: one NestJS API serves 
   <img src="https://streak-stats.demolab.com?user=Ahmed-Raouf-Metwally&hide_border=true&background=0d1117&stroke=1e293b&ring=10d59a&fire=6366f1&currStreakNum=f4f7fb&currStreakLabel=10d59a&sideNums=f4f7fb&sideLabels=9aa8bd&dates=64748b&border_radius=14" alt="GitHub streak" width="80%" />
 </p>
 
-<p align="center"><sub>⏱️ Coding time this week, via WakaTime</sub></p>
+<p align="center"><sub>⏱️ Coding time &amp; languages over the last year, via WakaTime</sub></p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ahmedRaouf&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=10d59a&text_color=a9b3c9&border_radius=14" alt="WakaTime coding stats" width="80%" />
+  <img src="assets/coding.svg" width="100%" alt="WakaTime: hours coded over the last year, daily average, top languages and editors" />
 </p>
 
 <h2><img src="assets/titles/en-music.svg" width="100%" alt="Coding Soundtrack" /></h2>
