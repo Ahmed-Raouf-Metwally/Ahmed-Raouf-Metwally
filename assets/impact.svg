@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="318" viewBox="0 0 920 318">
+<style>
+  .fl { animation: fl 4s ease-in-out infinite; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .sh { animation: sh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.8); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                  93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .glow { animation: glow 6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }  /* no opacity: frame 0 must be readable */
+
+  .pop { animation: pop .9s cubic-bezier(.2,1.6,.4,1) backwards; transform-box: fill-box; transform-origin: left center; }
+  @keyframes pop { from { transform: scale(.7); } to { transform: none; } }</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d14"/><stop offset=".55" stop-color="#0a1a1c"/><stop offset="1" stop-color="#0f1030"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14202a"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#10D59A" stop-opacity=".45"/><stop offset="1" stop-color="#10D59A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity=".06"/></pattern>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10D59A" stop-opacity="0"/><stop offset=".85" stop-color="#10D59A" stop-opacity=".05"/><stop offset="1" stop-color="#10D59A" stop-opacity=".22"/></linearGradient>
+<clipPath id="c"><rect width="920" height="318" rx="20"/></clipPath></defs>
+<g clip-path="url(#c)">
+  <rect width="920" height="318" fill="url(#bg)"/>
+  <rect width="920" height="318" fill="url(#dots)"/>
+  <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
+  <circle class="glow" style="animation-delay:-3s" cx="70" cy="288" r="240" fill="url(#o1)"/>
+  <g transform="translate(22 26)"><g class="fl" style="animation-delay:-0.00s">
+  <rect y="6" width="276" height="118" rx="14" fill="#054a35"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#086a4d"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#10D59A" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:0.00s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#06553d"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#0a8a64"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#10D59A" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">⏳</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#10D59A" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.20s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">4+</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#10D59A">years shipping</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">from C# desktop to NestJS + Next.js</text>
+</g></g><g transform="translate(316 26)"><g class="fl" style="animation-delay:-0.35s">
+  <rect y="6" width="276" height="118" rx="14" fill="#090b6d"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#0e109b"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#6366F1" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#6366F1" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:0.90s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#0b0d7c"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#1216ca"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#6366F1" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">🧭</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#6366F1" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.35s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">Lead</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6366F1">Technical Team Lead</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">QeemaTech · reviews · architecture</text>
+</g></g><g transform="translate(610 26)"><g class="fl" style="animation-delay:-0.70s">
+  <rect y="6" width="276" height="118" rx="14" fill="#563703"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#7a4f05"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#F59E0B" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:1.80s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#623f04"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#9f6606"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#F59E0B" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">🚀</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#F59E0B" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.50s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">5</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#F59E0B">products shipped</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">Orbex · Tarteel AI · Stockship</text>
+</g></g><g transform="translate(22 170)"><g class="fl" style="animation-delay:-0.50s">
+  <rect y="6" width="276" height="118" rx="14" fill="#064d58"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#096e7e"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#22D3EE" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:2.70s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#075865"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#0c90a4"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#22D3EE" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">⚡</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#22D3EE" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.65s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">75%</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#22D3EE">faster CRM queries</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">query response time, ERP / CRM</text>
+</g></g><g transform="translate(316 170)"><g class="fl" style="animation-delay:-0.85s">
+  <rect y="6" width="276" height="118" rx="14" fill="#610a35"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#8b0e4c"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#EC4899" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#EC4899" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:3.60s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#6f0b3c"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#b51263"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#EC4899" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">🏢</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#EC4899" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.80s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">5</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#EC4899">companies</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">01 Electronics → QeemaTech</text>
+</g></g><g transform="translate(610 170)"><g class="fl" style="animation-delay:-1.20s">
+  <rect y="6" width="276" height="118" rx="14" fill="#650516"/>
+    <rect y="3.0" width="276" height="118" rx="14" fill="#91081f"/>
+    <rect width="276" height="118" rx="14" fill="url(#face)"/>
+    <rect width="276" height="118" rx="14" fill="#F43F5E" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="275" height="117" rx="13.5" fill="none" stroke="#F43F5E" stroke-opacity=".38"/>
+  <g transform="translate(20 20)"><g class="fp" style="animation-delay:4.50s">
+    <rect y="5.0" width="42" height="42" rx="10.5" fill="#740619"/>
+    <rect y="2.5" width="42" height="42" rx="10.5" fill="#bc0a29"/>
+    <rect width="42" height="42" rx="10.5" fill="#1a2430"/>
+    <rect width="42" height="42" rx="10.5" fill="#F43F5E" fill-opacity=".18"/>
+    <text x="21.0" y="28.6" text-anchor="middle" font-size="20">🤖</text>
+    <rect width="42" height="42" rx="10.5" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="41" height="41" rx="10.0" fill="none" stroke="#F43F5E" stroke-opacity=".6"/>
+  </g></g>
+  <text class="pop" style="animation-delay:0.95s" x="76" y="50" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f4f7fb">AI</text>
+  <text x="76" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#F43F5E">LLM features</text>
+  <text x="20" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b3c9">integrated into real products</text>
+</g></g>
+  <path d="M10,30 V10 H30 M890,10 H910 V30 M910,288 V308 H890 M30,308 H10 V288" fill="none" stroke="#10D59A" stroke-width="2" stroke-opacity=".55" stroke-linecap="round"/>
+  <rect class="scan" x="0" y="0" width="920" height="70" fill="url(#scan)" style="animation-name:scan318"/>
+  <style>.scan { animation: scan318 8s linear infinite; } @keyframes scan318 { from { transform: translateY(-80px); } to { transform: translateY(328px); } }</style>
+</g>
+<rect x=".5" y=".5" width="919" height="317" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>

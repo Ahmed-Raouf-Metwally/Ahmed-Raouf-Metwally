@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="461" viewBox="0 0 920 461">
+<style>
+  .fl { animation: fl 4s ease-in-out infinite; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .sh { animation: sh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.8); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                  93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .glow { animation: glow 6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }  /* no opacity: frame 0 must be readable */
+
+  .j0 { animation: j0 14s steps(1) infinite; } @keyframes j0 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 77.0%,100% { opacity: 1; } }
+.j1 { animation: j1 14s steps(1) infinite; } @keyframes j1 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 78.4%,100% { opacity: 1; } }
+.j2 { animation: j2 14s steps(1) infinite; } @keyframes j2 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 79.8%,100% { opacity: 1; } }
+.j3 { animation: j3 14s steps(1) infinite; } @keyframes j3 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 81.2%,100% { opacity: 1; } }
+.j4 { animation: j4 14s steps(1) infinite; } @keyframes j4 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 82.6%,100% { opacity: 1; } }
+.j5 { animation: j5 14s steps(1) infinite; } @keyframes j5 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 84.0%,100% { opacity: 1; } }
+.j6 { animation: j6 14s steps(1) infinite; } @keyframes j6 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 85.4%,100% { opacity: 1; } }
+.j7 { animation: j7 14s steps(1) infinite; } @keyframes j7 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 86.8%,100% { opacity: 1; } }
+.j8 { animation: j8 14s steps(1) infinite; } @keyframes j8 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 88.2%,100% { opacity: 1; } }
+.j9 { animation: j9 14s steps(1) infinite; } @keyframes j9 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 89.6%,100% { opacity: 1; } }
+.j10 { animation: j10 14s steps(1) infinite; } @keyframes j10 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 91.0%,100% { opacity: 1; } }
+.j11 { animation: j11 14s steps(1) infinite; } @keyframes j11 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 92.4%,100% { opacity: 1; } }
+.j12 { animation: j12 14s steps(1) infinite; } @keyframes j12 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 93.8%,100% { opacity: 1; } }
+.j13 { animation: j13 14s steps(1) infinite; } @keyframes j13 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 95.2%,100% { opacity: 1; } }
+.j14 { animation: j14 14s steps(1) infinite; } @keyframes j14 { 0%,74% { opacity: 1; } 75% { opacity: 0; } 96.6%,100% { opacity: 1; } }
+
+  .cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+  .live { animation: lv 1.6s ease-in-out infinite; } @keyframes lv { 50% { opacity: .25; } }</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d14"/><stop offset=".55" stop-color="#0a1a1c"/><stop offset="1" stop-color="#0f1030"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14202a"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#10D59A" stop-opacity=".45"/><stop offset="1" stop-color="#10D59A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity=".06"/></pattern>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10D59A" stop-opacity="0"/><stop offset=".85" stop-color="#10D59A" stop-opacity=".05"/><stop offset="1" stop-color="#10D59A" stop-opacity=".22"/></linearGradient>
+<clipPath id="c"><rect width="920" height="461" rx="20"/></clipPath></defs>
+<g clip-path="url(#c)">
+  <rect width="920" height="461" fill="url(#bg)"/>
+  <rect width="920" height="461" fill="url(#dots)"/>
+  <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
+  <circle class="glow" style="animation-delay:-3s" cx="70" cy="431" r="240" fill="url(#o1)"/>
+  
+  <text x="24" y="40" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#8b95ab" letter-spacing="1.5">REQUEST</text>
+  <rect x="24" y="54" width="46" height="24" rx="6" fill="#10D59A" fill-opacity=".18" stroke="#10D59A" stroke-opacity=".6"/>
+  <text x="47" y="71" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" font-weight="700" fill="#10D59A">GET</text>
+  <text x="80" y="71" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12.5" fill="#e5e7eb">/v1/engineers/ahmed</text>
+  <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" fill="#8b95ab">
+    <text x="24" y="104"><tspan fill="#61afef">Host</tspan>: localhost:3000</text>
+    <text x="24" y="124"><tspan fill="#61afef">Accept</tspan>: application/json</text>
+    <text x="24" y="144"><tspan fill="#61afef">Authorization</tspan>: Bearer ••••••</text>
+  </g>
+  <line x1="24" x2="300" y1="168" y2="168" stroke="#fff" stroke-opacity=".08"/>
+  <text x="24" y="196" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#8b95ab" letter-spacing="1.5">RESPONSE</text>
+  <rect x="24" y="210" width="86" height="26" rx="13" fill="#10D59A" fill-opacity=".15" stroke="#10D59A" stroke-opacity=".6"/>
+  <circle class="live" cx="40" cy="223" r="4" fill="#10D59A"/>
+  <text x="52" y="228" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12.5" font-weight="700" fill="#10D59A">200 OK</text>
+  <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#a9b3c9">
+    <text x="24" y="266">time  <tspan fill="#f4f7fb">42 ms</tspan></text>
+    <text x="24" y="288">size  <tspan fill="#f4f7fb">0.6 kB</tspan></text>
+    <text x="24" y="310">type  <tspan fill="#f4f7fb">application/json</tspan></text>
+  </g>
+  <text x="24" y="357" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#5b6478" letter-spacing="1">LATENCY · p95 &lt; 50 ms</text>
+  <polyline points="24,383 43,375 62,387 81,371 100,379 119,389 138,377 157,385 176,373 195,390 214,381 233,386 252,376 271,388" fill="none" stroke="#10D59A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle r="4" fill="#f4f7fb" stroke="#10D59A" stroke-width="2"><animateMotion dur="5s" repeatCount="indefinite" path="M24,383 L43,375 L62,387 L81,371 L100,379 L119,389 L138,377 L157,385 L176,373 L195,390 L214,381 L233,386 L252,376 L271,388"/></circle>
+  <line x1="24" x2="271" y1="401" y2="401" stroke="#fff" stroke-opacity=".08"/>
+  <rect x="320" y="24" width="576" height="413" rx="14" fill="#0b1117" fill-opacity=".85" stroke="#fff" stroke-opacity=".1"/>
+  <path d="M320.5,38 a14 14 0 0 1 14-14 h547 a14 14 0 0 1 14 14 V64 H320.5z" fill="#121a22"/>
+  <circle cx="342" cy="44" r="6" fill="#ff5f57"/><circle cx="362" cy="44" r="6" fill="#febc2e"/><circle cx="382" cy="44" r="6" fill="#28c840"/>
+  <text x="880" y="49" text-anchor="end" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#6b7280">$ curl -s localhost:3000/v1/engineers/ahmed | jq</text>
+  <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13"><text class="j0" x="344" y="112" xml:space="preserve"><tspan fill="#3f4a56"> 1  </tspan><tspan fill="#a9b3c9">{</tspan></text><text class="j1" x="344" y="133" xml:space="preserve"><tspan fill="#3f4a56"> 2  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;name&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#98c379">&quot;Ahmed Raouf&quot;</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j2" x="344" y="154" xml:space="preserve"><tspan fill="#3f4a56"> 3  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;role&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#98c379">&quot;Technical Team Lead&quot;</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j3" x="344" y="175" xml:space="preserve"><tspan fill="#3f4a56"> 4  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;company&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#98c379">&quot;QeemaTech&quot;</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j4" x="344" y="196" xml:space="preserve"><tspan fill="#3f4a56"> 5  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;location&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#98c379">&quot;Cairo, Egypt&quot;</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j5" x="344" y="217" xml:space="preserve"><tspan fill="#3f4a56"> 6  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;experience_years&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#d19a66">4</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j6" x="344" y="238" xml:space="preserve"><tspan fill="#3f4a56"> 7  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;stack&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#a9b3c9">{</tspan></text><text class="j7" x="344" y="259" xml:space="preserve"><tspan fill="#3f4a56"> 8  </tspan><tspan fill="#a9b3c9">    </tspan><tspan fill="#61afef">&quot;backend&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#a9b3c9">[</tspan><tspan fill="#98c379">&quot;Node.js&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;NestJS&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Express&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;TypeScript&quot;</tspan><tspan fill="#a9b3c9">]</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j8" x="344" y="280" xml:space="preserve"><tspan fill="#3f4a56"> 9  </tspan><tspan fill="#a9b3c9">    </tspan><tspan fill="#61afef">&quot;frontend&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#a9b3c9">[</tspan><tspan fill="#98c379">&quot;React&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Next.js&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Angular&quot;</tspan><tspan fill="#a9b3c9">]</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j9" x="344" y="301" xml:space="preserve"><tspan fill="#3f4a56">10  </tspan><tspan fill="#a9b3c9">    </tspan><tspan fill="#61afef">&quot;data&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#a9b3c9">[</tspan><tspan fill="#98c379">&quot;MySQL&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;PostgreSQL&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Prisma&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;TypeORM&quot;</tspan><tspan fill="#a9b3c9">]</tspan></text><text class="j10" x="344" y="322" xml:space="preserve"><tspan fill="#3f4a56">11  </tspan><tspan fill="#a9b3c9">  },</tspan></text><text class="j11" x="344" y="343" xml:space="preserve"><tspan fill="#3f4a56">12  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;shipped&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#a9b3c9">[</tspan><tspan fill="#98c379">&quot;Orbex&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Tarteel AI&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Stockship&quot;</tspan><tspan fill="#a9b3c9">, </tspan><tspan fill="#98c379">&quot;Akfeek&quot;</tspan><tspan fill="#a9b3c9">]</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j12" x="344" y="364" xml:space="preserve"><tspan fill="#3f4a56">13  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;ai_features&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#c678dd">true</tspan><tspan fill="#a9b3c9">,</tspan></text><text class="j13" x="344" y="385" xml:space="preserve"><tspan fill="#3f4a56">14  </tspan><tspan fill="#a9b3c9">  </tspan><tspan fill="#61afef">&quot;open_to_collab&quot;</tspan><tspan fill="#a9b3c9">: </tspan><tspan fill="#c678dd">true</tspan></text><text class="j14" x="344" y="406" xml:space="preserve"><tspan fill="#3f4a56">15  </tspan><tspan fill="#a9b3c9">}</tspan></text></g>
+  <rect class="cur" x="374" y="414" width="8" height="15" fill="#10D59A"/>
+  <path d="M10,30 V10 H30 M890,10 H910 V30 M910,431 V451 H890 M30,451 H10 V431" fill="none" stroke="#10D59A" stroke-width="2" stroke-opacity=".55" stroke-linecap="round"/>
+  <rect class="scan" x="0" y="0" width="920" height="70" fill="url(#scan)" style="animation-name:scan461"/>
+  <style>.scan { animation: scan461 8s linear infinite; } @keyframes scan461 { from { transform: translateY(-80px); } to { transform: translateY(471px); } }</style>
+</g>
+<rect x=".5" y=".5" width="919" height="460" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>

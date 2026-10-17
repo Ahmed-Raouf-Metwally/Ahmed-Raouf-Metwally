@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="64" viewBox="0 0 920 64">
+<style>
+  .fl { animation: fl 4s ease-in-out infinite; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .sh { animation: sh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.8); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                  93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .glow { animation: glow 6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }  /* no opacity: frame 0 must be readable */
+
+  .cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d14"/><stop offset=".55" stop-color="#0a1a1c"/><stop offset="1" stop-color="#0f1030"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14202a"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#10D59A" stop-opacity=".45"/><stop offset="1" stop-color="#10D59A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity=".06"/></pattern>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10D59A" stop-opacity="0"/><stop offset=".85" stop-color="#10D59A" stop-opacity=".05"/><stop offset="1" stop-color="#10D59A" stop-opacity=".22"/></linearGradient>
+<linearGradient id="tl" gradientUnits="userSpaceOnUse" x1="892" x2="28"><stop offset="0" stop-color="#10D59A" stop-opacity=".9"/><stop offset=".6" stop-color="#6366F1" stop-opacity=".6"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></linearGradient><clipPath id="c"><rect width="920" height="64" rx="20"/></clipPath></defs>
+<g clip-path="url(#c)">
+  <rect width="920" height="64" fill="url(#bg)"/>
+  <rect width="920" height="64" fill="url(#dots)"/>
+  <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
+  <circle class="glow" style="animation-delay:-3s" cx="70" cy="34" r="240" fill="url(#o1)"/>
+  <text x="890" y="38" direction="rtl" text-anchor="start" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f4f7fb">نبذة عني</text><text x="30" y="37" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#5b6478" letter-spacing="1"><tspan fill="#10D59A">0x01</tspan> // section_01</text>
+  <path d="M892,52 H28" stroke="url(#tl)" stroke-width="2"/>
+  <circle r="3" fill="#10D59A"><animateMotion dur="4s" repeatCount="indefinite" path="M892,52 H28"/></circle>
+  <path d="M6,18 V6 H18 M902,6 H914 V18 M914,46 V58 H902 M18,58 H6 V46" fill="none" stroke="#10D59A" stroke-width="2" stroke-opacity=".55" stroke-linecap="round"/>
+  <rect class="scan" x="0" y="0" width="920" height="70" fill="url(#scan)" style="animation-name:scan64"/>
+  <style>.scan { animation: scan64 8s linear infinite; } @keyframes scan64 { from { transform: translateY(-80px); } to { transform: translateY(74px); } }</style>
+</g>
+<rect x=".5" y=".5" width="919" height="63" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>

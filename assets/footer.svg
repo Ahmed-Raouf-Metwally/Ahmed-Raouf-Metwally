@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+<style>.w{animation:w 8s ease-in-out infinite alternate}.w2{animation-duration:11s;animation-delay:-3s}
+@keyframes w{from{transform:translateX(0)}to{transform:translateX(-300px)}}
+.t{animation:t 3s ease-in-out infinite}@keyframes t{50%{opacity:.75}}</style>
+<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs>
+<path class="w w2" d="M0 70 C300 30 600 110 900 70 S1200 30 1500 70 V170 H0Z" fill="url(#a)" opacity=".35"/>
+<path class="w" d="M0 88 C300 58 600 118 900 88 S1200 58 1500 88 V170 H0Z" fill="url(#a)"/>
+<text class="t" x="600" y="140" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#fff">Let’s build something reliable together</text>
+</svg>

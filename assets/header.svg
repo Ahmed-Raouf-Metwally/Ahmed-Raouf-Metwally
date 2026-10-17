@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<style>
+  .fl { animation: fl 4s ease-in-out infinite; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .sh { animation: sh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.8); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                  93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .glow { animation: glow 6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }  /* no opacity: frame 0 must be readable */
+
+  .orb { animation: orb 9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .o2 { animation-duration: 12s; animation-delay: -4s; } .o3 { animation-duration: 15s; animation-delay: -7s; }
+  @keyframes orb { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(-30px,18px) scale(1.12); } }
+  .bar { animation: grow 1.2s .6s cubic-bezier(.2,.7,.2,1) both; transform-origin: left; transform-box: fill-box; }
+  @keyframes grow { from { transform: scaleX(.15); } to { transform: scaleX(1); } }
+  .cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+  .shine { animation: shine 7s linear infinite; } @keyframes shine { from { transform: translateX(-400px); } to { transform: translateX(1700px); } }
+  .rung { animation: rung 4s cubic-bezier(.55,0,1,.45) infinite; } @keyframes rung { from { transform: translateY(0); } to { transform: translateY(80px); } }
+  .gl { animation: gl 7s ease-in-out infinite; } @keyframes gl { 0%,100% { transform: translateY(0); opacity: 1; } 50% { transform: translateY(-12px); opacity: .4; } }
+  .live { animation: blink 1.6s ease-in-out infinite; }
+  .t0 { animation: tl0 12s steps(1) infinite; } @keyframes tl0 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 76%,100% { opacity: 1; } }
+.t1 { animation: tl1 12s steps(1) infinite; } @keyframes tl1 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 80%,100% { opacity: 1; } }
+.t2 { animation: tl2 12s steps(1) infinite; } @keyframes tl2 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 84%,100% { opacity: 1; } }
+.t3 { animation: tl3 12s steps(1) infinite; } @keyframes tl3 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 88%,100% { opacity: 1; } }
+.t4 { animation: tl4 12s steps(1) infinite; } @keyframes tl4 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 92%,100% { opacity: 1; } }
+.t5 { animation: tl5 12s steps(1) infinite; } @keyframes tl5 { 0%,72% { opacity: 1; } 74% { opacity: 0; } 96%,100% { opacity: 1; } }
+
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d14"/><stop offset=".55" stop-color="#0a1a1c"/><stop offset="1" stop-color="#0f1030"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14202a"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#10D59A" stop-opacity=".45"/><stop offset="1" stop-color="#10D59A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity=".06"/></pattern>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10D59A" stop-opacity="0"/><stop offset=".85" stop-color="#10D59A" stop-opacity=".05"/><stop offset="1" stop-color="#10D59A" stop-opacity=".22"/></linearGradient>
+
+  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="42"/></filter>
+  <clipPath id="c"><rect width="1200" height="380" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#dots)"/>
+  
+  <circle class="orb" cx="1000" cy="90" r="160" fill="#6366F1" opacity=".5" filter="url(#blur)"/>
+  <circle class="orb o2" cx="1130" cy="300" r="120" fill="#10D59A" opacity=".35" filter="url(#blur)"/>
+  <circle class="orb o3" cx="720" cy="360" r="100" fill="#22D3EE" opacity=".18" filter="url(#blur)"/>
+  <rect class="shine" x="0" y="0" width="300" height="380" fill="url(#shg)" transform="skewX(-20)"/>
+  <g stroke="#10D59A" stroke-opacity=".09" stroke-width="1"><clipPath id="fl"><rect y="300" width="1200" height="80"/></clipPath>
+    <g clip-path="url(#fl)"><line x1="600" y1="300" x2="-840" y2="380"/><line x1="600" y1="300" x2="-680" y2="380"/><line x1="600" y1="300" x2="-520" y2="380"/><line x1="600" y1="300" x2="-360" y2="380"/><line x1="600" y1="300" x2="-200" y2="380"/><line x1="600" y1="300" x2="-40" y2="380"/><line x1="600" y1="300" x2="120" y2="380"/><line x1="600" y1="300" x2="280" y2="380"/><line x1="600" y1="300" x2="440" y2="380"/><line x1="600" y1="300" x2="600" y2="380"/><line x1="600" y1="300" x2="760" y2="380"/><line x1="600" y1="300" x2="920" y2="380"/><line x1="600" y1="300" x2="1080" y2="380"/><line x1="600" y1="300" x2="1240" y2="380"/><line x1="600" y1="300" x2="1400" y2="380"/><line x1="600" y1="300" x2="1560" y2="380"/><line x1="600" y1="300" x2="1720" y2="380"/><line x1="600" y1="300" x2="1880" y2="380"/><line x1="600" y1="300" x2="2040" y2="380"/><line class="rung" style="animation-delay:0.0s" x1="0" x2="1200" y1="300" y2="300"/><line class="rung" style="animation-delay:-0.8s" x1="0" x2="1200" y1="300" y2="300"/><line class="rung" style="animation-delay:-1.6s" x1="0" x2="1200" y1="300" y2="300"/><line class="rung" style="animation-delay:-2.4s" x1="0" x2="1200" y1="300" y2="300"/><line class="rung" style="animation-delay:-3.2s" x1="0" x2="1200" y1="300" y2="300"/></g></g>
+  <text class="gl" style="animation-delay:0.0s" x="640" y="70" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="22" fill="#6366F1" fill-opacity=".28">&lt;/&gt;</text><text class="gl" style="animation-delay:-1.3s" x="700" y="340" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#10D59A" fill-opacity=".28">{ }</text><text class="gl" style="animation-delay:-2.6s" x="40" y="40" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" fill="#6366F1" fill-opacity=".28">=&gt;</text><text class="gl" style="animation-delay:-3.9s" x="560" y="200" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#10D59A" fill-opacity=".28">async</text><text class="gl" style="animation-delay:-5.2s" x="1160" y="330" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#6366F1" fill-opacity=".28">[ ]</text><text class="gl" style="animation-delay:-6.5s" x="470" y="60" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13" fill="#10D59A" fill-opacity=".28">0x1F</text>
+  <g transform="translate(1140 30)" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12">
+    <rect x="-150" y="-2" width="150" height="24" rx="12" fill="#10D59A" fill-opacity=".1" stroke="#10D59A" stroke-opacity=".5"/>
+    <circle class="live" cx="-134" cy="10" r="4" fill="#10D59A"/>
+    <text x="-122" y="14" fill="#c9f7e6">status: shipping</text>
+  </g>
+
+  <g transform="translate(770 62)"><g class="up" style="animation-delay:1s">
+    <rect width="370" height="236" rx="14" fill="#0b1117" fill-opacity=".88" stroke="#fff" stroke-opacity=".1"/>
+    <path d="M.5 14.5a14 14 0 0 1 14-14h341a14 14 0 0 1 14 14V40H.5z" fill="#121a22"/>
+    <circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
+    <text x="350" y="25" text-anchor="end" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#6b7280">~/stockship — deploy</text>
+    <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13.5" xml:space="preserve"><text x="24" y="76" class="tl t0"><tspan fill="#6b7280">$ </tspan><tspan fill="#e5e7eb">git push origin main</tspan></text><text x="24" y="101" class="tl t1"><tspan fill="#10D59A">✓ </tspan><tspan fill="#a9b3c9">lint &amp; tests passed</tspan></text><text x="24" y="126" class="tl t2"><tspan fill="#10D59A">✓ </tspan><tspan fill="#a9b3c9">nest build · api ready</tspan></text><text x="24" y="151" class="tl t3"><tspan fill="#10D59A">✓ </tspan><tspan fill="#a9b3c9">prisma migrate deploy</tspan></text><text x="24" y="176" class="tl t4"><tspan fill="#10D59A">✓ </tspan><tspan fill="#a9b3c9">next build · admin dashboard</tspan></text><text x="24" y="201" class="tl t5"><tspan fill="#818CF8">→ </tspan><tspan fill="#e5e7eb">shipped to production 🚀</tspan></text></g>
+    <rect class="cur" x="24" y="212" width="9" height="17" fill="#10D59A"/>
+  </g></g>
+
+  <text class="up" style="animation-delay:.15s" x="72" y="104" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#10D59A">// hello world, I'm</text>
+  <text class="up" style="animation-delay:.4s" x="68" y="178" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#f4f7fb" letter-spacing="-1.5">Ahmed Raouf</text>
+  <rect class="bar" x="72" y="198" width="200" height="6" rx="3" fill="url(#ac)"/>
+  <text class="up" style="animation-delay:.7s" x="72" y="250" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#d7dcf0"><tspan fill="#A9A3FF">Technical Team Lead</tspan> <tspan fill="#6b7280">·</tspan> Full-stack</text>
+  <g class="up" style="animation-delay:1s" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5"><rect x="72" y="290" width="236" height="36" rx="18" fill="#7F75E8" fill-opacity="0.2" stroke="#7F75E8" stroke-opacity="0.7"/><text x="190.0" y="313" text-anchor="middle" fill="#e6e3ff" font-weight="600">🧭  Team Lead @ QeemaTech</text><rect x="320" y="290" width="206" height="36" rx="18" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/><text x="423.0" y="313" text-anchor="middle" fill="#aab3c8" font-weight="400">⚡  4+ yrs in production</text><rect x="538" y="290" width="146" height="36" rx="18" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/><text x="611.0" y="313" text-anchor="middle" fill="#aab3c8" font-weight="400">📍  Cairo, Egypt</text></g>
+
+  <path d="M14,40 V14 H40 M1160,14 H1186 V40 M1186,340 V366 H1160 M40,366 H14 V340" fill="none" stroke="#10D59A" stroke-width="2" stroke-opacity=".55" stroke-linecap="round"/>
+  <rect class="scan" x="0" y="0" width="1200" height="70" fill="url(#scan)" style="animation-name:scan380"/>
+  <style>.scan { animation: scan380 8s linear infinite; } @keyframes scan380 { from { transform: translateY(-80px); } to { transform: translateY(390px); } }</style>
+</g>
+</svg>

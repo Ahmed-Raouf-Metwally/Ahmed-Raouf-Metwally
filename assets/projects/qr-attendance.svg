@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="265" viewBox="0 0 440 265">
+<style>
+  .fl { animation: fl 4.2s ease-in-out infinite; animation-delay: -2.75s; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .sh { animation: sh 4.2s ease-in-out infinite; animation-delay: -2.75s; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.86); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; animation-delay: 3.50s; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                   93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .g { animation: pulse 4s ease-in-out infinite; } @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .sw { animation: sw 7s ease-in-out infinite; animation-delay: 4.50s; }
+  @keyframes sw { 0%,70% { transform: translateX(-260px); } 100% { transform: translateX(700px); } }
+  .live { animation: live 1.6s ease-in-out infinite; } @keyframes live { 50% { opacity: .25; } }
+</style>
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121c26"/><stop offset="1" stop-color="#0b1117"/></linearGradient>
+  <radialGradient id="r" cx="1" cy="0" r="1"><stop offset="0" stop-color="#22D3EE" stop-opacity=".5"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity=".04"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="swg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#064d58"/><stop offset=".5" stop-color="#0a798a"/><stop offset="1" stop-color="#05424b"/></linearGradient>
+  <clipPath id="c"><rect x=".5" y=".5" width="439" height="229" rx="16"/></clipPath>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<ellipse class="sh" filter="url(#bl)" cx="220.0" cy="256" rx="190.0" ry="7" fill="#22D3EE" opacity=".4"/>
+<g class="fl"><g transform="translate(0 10)">
+  <rect x="0" y="9" width="440" height="230" rx="16" fill="url(#ed)"/>
+  <rect x="0" y="4.5" width="440" height="230" rx="16" fill="#086371"/>
+  <g clip-path="url(#c)">
+    <rect width="440" height="230" fill="url(#b)"/>
+    <rect class="g" width="440" height="230" fill="url(#r)"/>
+    <rect width="440" height="4" fill="#22D3EE"/>
+    <rect class="sw" x="0" y="0" width="180" height="230" fill="url(#swg)" transform="skewX(-20)"/>
+  </g>
+  <rect x=".5" y=".5" width="439" height="229" rx="16" fill="none" stroke="#fff" stroke-opacity=".12"/>
+  <g transform="translate(26 22)"><g class="fp">
+    <rect x="0" y="6" width="48" height="48" rx="12" fill="#075865"/>
+    <rect x="0" y="3" width="48" height="48" rx="12" fill="#0c90a4"/>
+    <rect width="48" height="48" rx="12" fill="#1a2430"/>
+    <rect width="48" height="48" rx="12" fill="#22D3EE" fill-opacity=".16"/>
+    <text x="24" y="32" text-anchor="middle" font-size="23">🎓</text>
+    <rect width="48" height="48" rx="12" fill="url(#gl)"/>
+    <rect x=".5" y=".5" width="47" height="47" rx="11.5" fill="none" stroke="#22D3EE" stroke-opacity=".6"/>
+  </g></g>
+  <text x="88" y="46" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#f4f7fb">QR Attendance</text>
+  <text x="88" y="67" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" fill="#22D3EE" letter-spacing=".4">GRADUATION PROJECT · A+</text>
+  
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#a9b3c9"><text x="26" y="112">Attendance by QR scanning plus an eLearning system: my</text><text x="26" y="134">graduation project at Modern Academy Maadi, graded A+</text><text x="26" y="156">(Excellent).</text></g>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#e5e7eb"><rect x="26" y="186" width="103" height="24" rx="12" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".45"/><text x="77.5" y="202.5" text-anchor="middle">QR scanning</text><rect x="137" y="186" width="88" height="24" rx="12" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".45"/><text x="181.0" y="202.5" text-anchor="middle">eLearning</text><rect x="233" y="186" width="96" height="24" rx="12" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".45"/><text x="281.0" y="202.5" text-anchor="middle">Full-stack</text></g>
+</g></g>
+</svg>
