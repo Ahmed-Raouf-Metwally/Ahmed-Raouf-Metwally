@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="44" viewBox="0 0 720 44">
+<style>.v0 { animation: v0 20.0s infinite; } @keyframes v0 { 0%,19.75% { opacity: 1; } 20.00%,100% { opacity: 0; } }
+.r0 { animation: r0 20.0s steps(31, end) infinite; transform-box: fill-box; transform-origin: left; } @keyframes r0 { 0%,17.75% { transform: scaleX(1); } 19.75%,100% { transform: scaleX(0); } }
+.c0 { animation: c0 20.0s steps(31, end) infinite; } @keyframes c0 { 0%,17.75% { transform: translateX(374px); } 19.75%,100% { transform: translateX(0); } }
+.v1 { animation: v1 20.0s infinite; } @keyframes v1 { 0%,20.00% { opacity: 0; } 20.01%,39.75% { opacity: 1; } 40.00%,100% { opacity: 0; } }
+.r1 { animation: r1 20.0s steps(46, end) infinite; transform-box: fill-box; transform-origin: left; } @keyframes r1 { 0%,20.00% { transform: scaleX(0); } 26.50%,37.75% { transform: scaleX(1); } 39.75%,100% { transform: scaleX(0); } }
+.c1 { animation: c1 20.0s steps(46, end) infinite; } @keyframes c1 { 0%,20.00% { transform: translateX(0); } 26.50%,37.75% { transform: translateX(554px); } 39.75%,100% { transform: translateX(0); } }
+.v2 { animation: v2 20.0s infinite; } @keyframes v2 { 0%,40.00% { opacity: 0; } 40.01%,59.75% { opacity: 1; } 60.00%,100% { opacity: 0; } }
+.r2 { animation: r2 20.0s steps(44, end) infinite; transform-box: fill-box; transform-origin: left; } @keyframes r2 { 0%,40.00% { transform: scaleX(0); } 46.50%,57.75% { transform: scaleX(1); } 59.75%,100% { transform: scaleX(0); } }
+.c2 { animation: c2 20.0s steps(44, end) infinite; } @keyframes c2 { 0%,40.00% { transform: translateX(0); } 46.50%,57.75% { transform: translateX(530px); } 59.75%,100% { transform: translateX(0); } }
+.v3 { animation: v3 20.0s infinite; } @keyframes v3 { 0%,60.00% { opacity: 0; } 60.01%,79.75% { opacity: 1; } 80.00%,100% { opacity: 0; } }
+.r3 { animation: r3 20.0s steps(39, end) infinite; transform-box: fill-box; transform-origin: left; } @keyframes r3 { 0%,60.00% { transform: scaleX(0); } 66.50%,77.75% { transform: scaleX(1); } 79.75%,100% { transform: scaleX(0); } }
+.c3 { animation: c3 20.0s steps(39, end) infinite; } @keyframes c3 { 0%,60.00% { transform: translateX(0); } 66.50%,77.75% { transform: translateX(470px); } 79.75%,100% { transform: translateX(0); } }
+.v4 { animation: v4 20.0s infinite; } @keyframes v4 { 0%,80.00% { opacity: 0; } 80.01%,99.75% { opacity: 1; } 100.00%,100% { opacity: 0; } }
+.r4 { animation: r4 20.0s steps(30, end) infinite; transform-box: fill-box; transform-origin: left; } @keyframes r4 { 0%,80.00% { transform: scaleX(0); } 86.50%,97.75% { transform: scaleX(1); } 99.75%,100% { transform: scaleX(0); } }
+.c4 { animation: c4 20.0s steps(30, end) infinite; } @keyframes c4 { 0%,80.00% { transform: translateX(0); } 86.50%,97.75% { transform: translateX(362px); } 99.75%,100% { transform: translateX(0); } }
+</style>
+<g class="v0"><clipPath id="k0"><rect class="r0" x="173.2" y="0" width="375.6" height="44"/></clipPath>
+  <text clip-path="url(#k0)" x="173.2" y="29" textLength="373.6" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" font-weight="600" fill="#10D59A" xml:space="preserve">Technical Team Lead @ QeemaTech</text>
+  <rect class="c0" x="175.2" y="11" width="3" height="23" rx="1" fill="#10D59A"/></g><g class="v1"><clipPath id="k1"><rect class="r1" x="82.8" y="0" width="556.3" height="44"/></clipPath>
+  <text clip-path="url(#k1)" x="82.8" y="29" textLength="554.3" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" font-weight="600" fill="#10D59A" xml:space="preserve">Full-stack: NestJS · Node.js · React · Next.js</text>
+  <rect class="c1" x="84.8" y="11" width="3" height="23" rx="1" fill="#10D59A"/></g><g class="v2"><clipPath id="k2"><rect class="r2" x="94.9" y="0" width="532.2" height="44"/></clipPath>
+  <text clip-path="url(#k2)" x="94.9" y="29" textLength="530.2" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" font-weight="600" fill="#10D59A" xml:space="preserve">APIs, admin dashboards &amp; AI-powered features</text>
+  <rect class="c2" x="96.9" y="11" width="3" height="23" rx="1" fill="#10D59A"/></g><g class="v3"><clipPath id="k3"><rect class="r3" x="125.0" y="0" width="472.0" height="44"/></clipPath>
+  <text clip-path="url(#k3)" x="125.0" y="29" textLength="470.0" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" font-weight="600" fill="#10D59A" xml:space="preserve">Orbex · Tarteel AI · Stockship · Akfeek</text>
+  <rect class="c3" x="127.0" y="11" width="3" height="23" rx="1" fill="#10D59A"/></g><g class="v4"><clipPath id="k4"><rect class="r4" x="179.2" y="0" width="363.5" height="44"/></clipPath>
+  <text clip-path="url(#k4)" x="179.2" y="29" textLength="361.5" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" font-weight="600" fill="#10D59A" xml:space="preserve">Turning coffee into clean APIs</text>
+  <rect class="c4" x="181.2" y="11" width="3" height="23" rx="1" fill="#10D59A"/></g>
+</svg>

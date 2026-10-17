@@ -1,0 +1,150 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  The one file to edit. Push it (or edit it on github.com) and the
+#  "Build profile assets" Action regenerates every card AND the project grid
+#  in README.md / README.ar.md. Locally: python scripts/build.py
+#
+#  colors: green · indigo · amber · cyan · pink · rose · purple · blue · teal · yellow
+#          or any hex like "#FF6B00"
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Lines that type themselves under the header (keep each under ~55 characters)
+typing:
+  - Technical Team Lead @ QeemaTech
+  - "Full-stack: NestJS · Node.js · React · Next.js"
+  - APIs, admin dashboards & AI-powered features
+  - Orbex · Tarteel AI · Stockship · Akfeek
+  - Turning coffee into clean APIs
+
+# Project cards, shown two per row in this order.
+#   slug:  file name for the card (lowercase, no spaces) -> assets/projects/<slug>.svg
+#   url:   where the card links to (leave empty to link to the portfolio)
+#   live:  true shows the green LIVE badge
+#   desc:  up to ~220 characters, wraps onto 4 lines
+#   tags:  3-4 short tags
+projects:
+  - slug: orbex
+    icon: 📈
+    name: Orbex
+    kind: Forex & CFD trading app
+    color: amber
+    url: ""
+    live: true
+    desc: Mobile trading app for Orbex, an online forex and CFD broker, live on Google Play. I built the backend APIs and the Super Admin dashboard.
+    tags: [NestJS, MySQL, Next.js, Mobile]
+
+  - slug: tarteel
+    icon: 📖
+    name: Tarteel AI
+    kind: AI-powered Quran app
+    color: green
+    url: ""
+    live: true
+    desc: Listens to a user's recitation, detects mistakes in real time and supports memorization. I built its APIs and admin dashboard.
+    tags: [NestJS, MySQL, AI, Next.js]
+
+  - slug: stockship
+    icon: 📦
+    name: Stockship
+    kind: End to end · AI features
+    color: blue
+    url: ""
+    live: true
+    desc: "Built end to end: NestJS APIs, a responsive Next.js front-end, AI/LLM-powered features and the Super Admin dashboard."
+    tags: [NestJS, Next.js, AI/LLM, MySQL]
+
+  - slug: akfeek
+    icon: 🧩
+    name: Akfeek
+    kind: Platform backend & admin
+    color: pink
+    url: ""
+    live: true
+    desc: Backend services and RESTful APIs for the platform, plus the Super Admin dashboard used to manage and monitor it.
+    tags: [NestJS, MySQL, REST, Next.js]
+
+  - slug: smootherp
+    icon: 🏭
+    name: SmoothERP
+    kind: ERP system · FiveM Tech
+    color: indigo
+    url: ""
+    live: true
+    desc: ERP for core business operations across multiple modules. I built backend services and REST APIs for its modules.
+    tags: [NestJS, Prisma, MySQL, ERP]
+
+  - slug: qr-attendance
+    icon: 🎓
+    name: QR Attendance
+    kind: Graduation project · A+
+    color: cyan
+    url: ""
+    live: false
+    desc: "Attendance by QR scanning plus an eLearning system: my graduation project at Modern Academy Maadi, graded A+ (Excellent)."
+    tags: [QR scanning, eLearning, Full-stack]
+
+# Career timeline, oldest first. Up to 6 fit; the last one is marked "→ NOW".
+#   Keep company under ~14 characters, role under ~18, each point under ~20.
+career:
+  - year: "2021"
+    company: 01 Electronics
+    role: Intern → Jr. SWE
+    when: Dec 2021 – Jun 2023
+    color: rose
+    points: [C# · WPF desktop, ERP & CRM modules, CRM queries −75%]
+  - year: "2024"
+    company: BookSportz
+    role: Node.js · Scrum
+    when: Jan – Mar 2024
+    color: amber
+    points: [NestJS · GraphQL, PostgreSQL, Scrum Master]
+  - year: "2024"
+    company: FiveM Tech
+    role: Backend Dev
+    when: Dec 2024 – Apr 2025
+    color: cyan
+    points: [NestJS REST APIs, Prisma + MySQL, SmoothERP]
+  - year: "2025"
+    company: Triasols
+    role: Full-stack Dev
+    when: May – Dec 2025
+    color: pink
+    points: [Scalable APIs, NestJS · Prisma, Modular design]
+  - year: "2026"
+    company: QeemaTech
+    role: Full-stack Dev
+    when: Jan – Aug 2026
+    color: green
+    points: [Orbex · Tarteel AI, Stockship · Akfeek, Admin dashboards]
+  - year: "2026"
+    company: QeemaTech
+    role: Tech Team Lead
+    when: Aug 2026 – now
+    color: purple
+    points: [Lead the team, Code review, Architecture]
+
+# Learning & certifications, two per row.
+learning:
+  - icon: 🎓
+    title: B.Sc. Computer Science
+    org: Modern Academy Maadi
+    when: 2018 – 2022
+    color: green
+    points: [Faculty of Computing & Information, Graduation project graded A+]
+  - icon: 🧩
+    title: MEAN Stack Diploma
+    org: Route IT Training Center
+    when: 2021 – 2022
+    color: rose
+    points: [MongoDB · Express · Angular · Node.js, Where the backend journey started]
+  - icon: 🔁
+    title: Scrum Product Owner
+    org: O'Reilly
+    when: "2024"
+    color: indigo
+    points: ["Backlogs, priorities, Agile delivery", Paired with Scrum Master work]
+  - icon: 🏅
+    title: MEAN Stack Scholarship
+    org: Orange Digital Center × AMIT
+    when: "2024"
+    color: amber
+    points: [96 hours of hands-on training, Finished with a 95% grade]

@@ -29,7 +29,7 @@
   <rect width="920" height="64" fill="url(#dots)"/>
   <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
   <circle class="glow" style="animation-delay:-3s" cx="70" cy="34" r="240" fill="url(#o1)"/>
-  <text x="890" y="38" direction="rtl" text-anchor="start" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f4f7fb">المساهمات</text><text x="30" y="37" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#5b6478" letter-spacing="1"><tspan fill="#10D59A">0x0C</tspan> // section_12</text>
+  <text x="890" y="38" direction="rtl" text-anchor="start" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f4f7fb">المساهمات</text><text x="30" y="37" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#5b6478" letter-spacing="1"><tspan fill="#10D59A">0x08</tspan> // section_08</text>
   <path d="M892,52 H28" stroke="url(#tl)" stroke-width="2"/>
   <circle r="3" fill="#10D59A"><animateMotion dur="4s" repeatCount="indefinite" path="M892,52 H28"/></circle>
   <path d="M6,18 V6 H18 M902,6 H914 V18 M914,46 V58 H902 M18,58 H6 V46" fill="none" stroke="#10D59A" stroke-width="2" stroke-opacity=".55" stroke-linecap="round"/>

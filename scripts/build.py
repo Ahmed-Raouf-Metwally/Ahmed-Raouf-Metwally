@@ -14,6 +14,17 @@ G, IN = "#10D59A", "#6366F1"  # emerald + indigo, the brand pair
 PV = "#7F75E8"  # current-company accent
 e = html.escape
 
+import yaml  # noqa: E402  (pip install pyyaml)
+
+DATA = yaml.safe_load((ROOT / "data" / "profile.yml").read_text(encoding="utf-8"))
+NAMED = {"green": G, "indigo": IN, "amber": "#F59E0B", "cyan": "#22D3EE", "pink": "#EC4899", "rose": "#F43F5E",
+         "purple": PV, "blue": "#3B82F6", "teal": "#14B8A6", "yellow": "#EAB308"}
+PORTFOLIO = "https://dev-ahmed-raouf.vercel.app/"
+
+
+def color(c):
+    return NAMED.get(str(c).lower(), c) if c else G
+
 
 def dark(hexc, f):
     r, g, b = (int(hexc[i:i + 2], 16) / 255 for i in (1, 3, 5))
@@ -297,24 +308,12 @@ def services():
 
 
 # ---------------- career timeline ----------------
-CAREER = [
-    ("2021", "01 Electronics", "Intern → Jr. SWE", "Dec 2021 – Jun 2023", "#F43F5E",
-     ["C# · WPF desktop", "ERP & CRM modules", "CRM queries −75%"]),
-    ("2024", "BookSportz", "Node.js · Scrum", "Jan – Mar 2024", "#F59E0B",
-     ["NestJS · GraphQL", "PostgreSQL", "Scrum Master"]),
-    ("2024", "FiveM Tech", "Backend Dev", "Dec 2024 – Apr 2025", "#22D3EE",
-     ["NestJS REST APIs", "Prisma + MySQL", "SmoothERP"]),
-    ("2025", "Triasols", "Full-stack Dev", "May – Dec 2025", "#EC4899",
-     ["Scalable APIs", "NestJS · Prisma", "Modular design"]),
-    ("2026", "QeemaTech", "Full-stack Dev", "Jan – Aug 2026", G,
-     ["Orbex · Tarteel AI", "Stockship · Akfeek", "Admin dashboards"]),
-    ("2026", "QeemaTech", "Tech Team Lead", "Aug 2026 – now", PV,
-     ["Lead the team", "Code review", "Architecture"]),
-]
+CAREER = [(str(c["year"]), c["company"], c["role"], c["when"], color(c.get("color")), c["points"]) for c in DATA["career"]]
 
 
 def career():
-    W, x0, colw, top, cardh = 920, 16, 148, 104, 164
+    W, x0, top, cardh = 920, 16, 104, 164
+    colw = (W - 2 * x0) / len(CAREER)
     H = top + cardh + 34
     ax = 44
     out = [f'<line x1="{ax}" x2="{W - ax}" y1="56" y2="56" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>',
@@ -416,30 +415,8 @@ def architecture():
 
 
 # ---------------- project cards ----------------
-PROJECTS = [
-    ("orbex", "📈", "Orbex", "Forex & CFD trading app", "#F59E0B",
-     "Mobile trading app for Orbex, an online forex and CFD broker, live on Google Play. I built the backend APIs and the Super Admin dashboard.",
-     ["NestJS", "MySQL", "Next.js", "Mobile"]),
-    ("tarteel", "📖", "Tarteel AI", "AI-powered Quran app", G,
-     "Listens to a user's recitation, detects mistakes in real time and supports memorization. I built its APIs and admin dashboard.",
-     ["NestJS", "MySQL", "AI", "Next.js"]),
-    ("stockship", "📦", "Stockship", "End to end · AI features", "#3B82F6",
-     "Built end to end: NestJS APIs, a responsive Next.js front-end, AI/LLM-powered features and the Super Admin dashboard.",
-     ["NestJS", "Next.js", "AI/LLM", "MySQL"]),
-    ("akfeek", "🧩", "Akfeek", "Platform backend & admin", "#EC4899",
-     "Backend services and RESTful APIs for the platform, plus the Super Admin dashboard used to manage and monitor it.",
-     ["NestJS", "MySQL", "REST", "Next.js"]),
-    ("smootherp", "🏭", "SmoothERP", "ERP system · FiveM Tech", IN,
-     "ERP for core business operations across multiple modules. I built backend services and REST APIs for its modules.",
-     ["NestJS", "Prisma", "MySQL", "ERP"]),
-    ("qr-attendance", "🎓", "QR Attendance", "Graduation project · A+", "#22D3EE",
-     "Attendance by QR scanning plus an eLearning system: my graduation project at Modern Academy Maadi, graded A+ (Excellent).",
-     ["QR scanning", "eLearning", "Full-stack"]),
-]
-
-
-NOT_LIVE = {"qr-attendance"}  # academic project, no public page
-
+PROJECTS = [(p["slug"], p["icon"], p["name"], p["kind"], color(p.get("color")), p["desc"], p["tags"]) for p in DATA["projects"]]
+NOT_LIVE = {p["slug"] for p in DATA["projects"] if not p.get("live", True)}
 
 def projects(items=None, badge="LIVE"):
     W, H = 440, 230
@@ -753,16 +730,7 @@ def api():
 
 
 # ---------------- learning & certifications ----------------
-LEARNING = [
-    ("🎓", "B.Sc. Computer Science", "Modern Academy Maadi", "2018 – 2022", G,
-     ["Faculty of Computing & Information", "Graduation project graded A+"]),
-    ("🧩", "MEAN Stack Diploma", "Route IT Training Center", "2021 – 2022", "#F43F5E",
-     ["MongoDB · Express · Angular · Node.js", "Where the backend journey started"]),
-    ("🔁", "Scrum Product Owner", "O'Reilly", "2024", IN,
-     ["Backlogs, priorities, Agile delivery", "Paired with Scrum Master work"]),
-    ("🏅", "MEAN Stack Scholarship", "Orange Digital Center × AMIT", "2024", "#F59E0B",
-     ["96 hours of hands-on training", "Finished with a 95% grade"]),
-]
+LEARNING = [(l["icon"], l["title"], l["org"], str(l["when"]), color(l.get("color")), l["points"]) for l in DATA["learning"]]
 
 
 def learning():
@@ -790,19 +758,47 @@ def learning():
     write("learning.svg", frame(W, H, "".join(out)))
 
 
+# ---------------- typing intro (self-hosted replacement for readme-typing-svg) ----------------
+TYPING = DATA["typing"]
+
+
+def typing():
+    W, H, CH, slot = 720, 44, 12.05, 4.0  # monospace: every glyph is the same width
+    cyc, n = slot * len(TYPING), len(TYPING)
+    css, body = [], []
+    for i, line in enumerate(TYPING):
+        w = len(line) * CH
+        x = (W - w) / 2
+        a, b = 100 * i / n, 100 * (i + 1) / n
+        t_in, t_hold, t_out = a + 100 * 1.3 / cyc, b - 100 * .45 / cyc, b - 100 * .05 / cyc
+        # line 0 is fully typed at frame 0 so a static render is never blank
+        vis = (f"0%,{t_out:.2f}% {{ opacity: 1; }} {b:.2f}%,100% {{ opacity: 0; }}" if i == 0 else
+               f"0%,{a:.2f}% {{ opacity: 0; }} {a + .01:.2f}%,{t_out:.2f}% {{ opacity: 1; }} {b:.2f}%,100% {{ opacity: 0; }}")
+        rev = (f"0%,{t_hold:.2f}% {{ transform: scaleX(1); }} {t_out:.2f}%,100% {{ transform: scaleX(0); }}" if i == 0 else
+               f"0%,{a:.2f}% {{ transform: scaleX(0); }} {t_in:.2f}%,{t_hold:.2f}% {{ transform: scaleX(1); }} {t_out:.2f}%,100% {{ transform: scaleX(0); }}")
+        cur = (f"0%,{t_hold:.2f}% {{ transform: translateX({w:.0f}px); }} {t_out:.2f}%,100% {{ transform: translateX(0); }}" if i == 0 else
+               f"0%,{a:.2f}% {{ transform: translateX(0); }} {t_in:.2f}%,{t_hold:.2f}% {{ transform: translateX({w:.0f}px); }} {t_out:.2f}%,100% {{ transform: translateX(0); }}")
+        css.append(f".v{i} {{ animation: v{i} {cyc}s infinite; }} @keyframes v{i} {{ {vis} }}\n"
+                   f".r{i} {{ animation: r{i} {cyc}s steps({len(line)}, end) infinite; transform-box: fill-box; transform-origin: left; }} @keyframes r{i} {{ {rev} }}\n"
+                   f".c{i} {{ animation: c{i} {cyc}s steps({len(line)}, end) infinite; }} @keyframes c{i} {{ {cur} }}\n")
+        body.append(f"""<g class="v{i}"><clipPath id="k{i}"><rect class="r{i}" x="{x:.1f}" y="0" width="{w + 2:.1f}" height="{H}"/></clipPath>
+  <text clip-path="url(#k{i})" x="{x:.1f}" y="29" textLength="{w:.1f}" lengthAdjust="spacingAndGlyphs" font-family="{MONO}" font-size="20" font-weight="600" fill="{G}" xml:space="preserve">{e(line)}</text>
+  <rect class="c{i}" x="{x + 2:.1f}" y="11" width="3" height="23" rx="1" fill="{G}"/></g>""")
+    write("typing.svg", f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
+<style>{"".join(css)}</style>
+{"".join(body)}
+</svg>""")
+
+
 # ---------------- section titles ----------------
-TITLES = [  # slug, english, arabic
+TITLES = [  # slug, english, arabic -- in README order
     ("about", "About Me", "نبذة عني"),
     ("api", "Query Me", "استعلم عني"),
-    ("company", "Currently @ QeemaTech", "حاليًا في QeemaTech"),
-    ("services", "What I Bring", "ما أقدمه"),
-    ("career", "Career Path", "المسار المهني"),
-    ("architecture", "How I Build a Platform", "إزاي بابني منصة"),
     ("work", "Selected Work", "أعمال مختارة"),
+    ("career", "Career Path", "المسار المهني"),
     ("stack", "Tech Stack", "التقنيات"),
-    ("learning", "Learning & Certifications", "التعليم والشهادات"),
     ("analytics", "GitHub Analytics", "إحصائيات GitHub"),
-    ("music", "Coding Soundtrack", "بسمع إيه وأنا بكود"),
+    ("more", "Dig Deeper", "تفاصيل أكتر"),
     ("snake", "Contribution Flow", "المساهمات"),
 ]
 
@@ -834,7 +830,28 @@ def titles():
             write(f"titles/{lang}-{slug}.svg", svg)
 
 
+# ---------------- README sync ----------------
+def readme_projects():
+    """Rewrites the project grid between the PROJECTS markers in both READMEs and drops cards no longer listed."""
+    rows = []
+    for i in range(0, len(DATA["projects"]), 2):
+        cells = "\n".join(f'  <a href="{p.get("url") or PORTFOLIO}"><img src="assets/projects/{p["slug"]}.svg" width="49%" alt="{e(p["name"])}: {e(p["kind"])}" /></a>'
+                          for p in DATA["projects"][i:i + 2])
+        rows.append(f'<p align="center">\n{cells}\n</p>')
+    grid = "<!-- PROJECTS:START (generated from data/profile.yml, edit there) -->\n" + "\n".join(rows) + "\n<!-- PROJECTS:END -->"
+    for name in ("README.md", "README.ar.md"):
+        f = ROOT / name
+        text = f.read_text(encoding="utf-8")
+        new, n = re.subn(r"<!-- PROJECTS:START.*?<!-- PROJECTS:END -->", lambda _: grid, text, flags=re.S)
+        if n:
+            f.write_text(new, encoding="utf-8")
+    keep = {f'{p["slug"]}.svg' for p in DATA["projects"]}
+    for old in (A / "projects").glob("*.svg"):
+        if old.name not in keep:
+            old.unlink()
+
+
 if __name__ == "__main__":
-    for f in (header, company, impact, about, idcard, api, learning, titles, services, career, architecture, projects, tech, divider, footer):
+    for f in (header, typing, company, impact, about, idcard, api, learning, titles, services, career, architecture, projects, tech, divider, footer, readme_projects):
         f()
     print("assets built:", sorted(p.name for p in A.rglob("*.svg")))

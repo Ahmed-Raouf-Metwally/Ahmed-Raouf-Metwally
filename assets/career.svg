@@ -37,14 +37,14 @@
   <circle r="10" fill="#91081f"/><circle r="8" cy="-1.5" fill="#F43F5E"/>
 </g>
 <text x="90.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F43F5E">2021</text>
-<text x="90.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Dec 2021 – Jun 2023</text><g transform="translate(22 104)"><g class="fl" style="animation-delay:-0.00s">
-  <rect y="6" width="136" height="164" rx="12" fill="#650516"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#91081f"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#F43F5E" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#F43F5E" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#F43F5E"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="90.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Dec 2021 – Jun 2023</text><g transform="translate(22.0 104)"><g class="fl" style="animation-delay:-0.00s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#650516"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#91081f"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#F43F5E" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#F43F5E" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#F43F5E"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">01 Electronics</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#F43F5E">INTERN → JR. SWE</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F43F5E">▸ </tspan>C# · WPF desktop</text><text x="14" y="108"><tspan fill="#F43F5E">▸ </tspan>ERP &amp; CRM modules</text><text x="14" y="130"><tspan fill="#F43F5E">▸ </tspan>CRM queries −75%</text></g>
@@ -53,14 +53,14 @@
   <circle r="10" fill="#7a4f05"/><circle r="8" cy="-1.5" fill="#F59E0B"/>
 </g>
 <text x="238.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F59E0B">2024</text>
-<text x="238.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Jan – Mar 2024</text><g transform="translate(170 104)"><g class="fl" style="animation-delay:-0.40s">
-  <rect y="6" width="136" height="164" rx="12" fill="#563703"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#7a4f05"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#F59E0B" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#F59E0B"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="238.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Jan – Mar 2024</text><g transform="translate(170.0 104)"><g class="fl" style="animation-delay:-0.40s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#563703"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#7a4f05"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#F59E0B" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#F59E0B"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">BookSportz</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#F59E0B">NODE.JS · SCRUM</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F59E0B">▸ </tspan>NestJS · GraphQL</text><text x="14" y="108"><tspan fill="#F59E0B">▸ </tspan>PostgreSQL</text><text x="14" y="130"><tspan fill="#F59E0B">▸ </tspan>Scrum Master</text></g>
@@ -69,14 +69,14 @@
   <circle r="10" fill="#096e7e"/><circle r="8" cy="-1.5" fill="#22D3EE"/>
 </g>
 <text x="386.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#22D3EE">2024</text>
-<text x="386.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Dec 2024 – Apr 2025</text><g transform="translate(318 104)"><g class="fl" style="animation-delay:-0.80s">
-  <rect y="6" width="136" height="164" rx="12" fill="#064d58"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#096e7e"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#22D3EE" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#22D3EE"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="386.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Dec 2024 – Apr 2025</text><g transform="translate(318.0 104)"><g class="fl" style="animation-delay:-0.80s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#064d58"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#096e7e"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#22D3EE" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#22D3EE"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">FiveM Tech</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#22D3EE">BACKEND DEV</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#22D3EE">▸ </tspan>NestJS REST APIs</text><text x="14" y="108"><tspan fill="#22D3EE">▸ </tspan>Prisma + MySQL</text><text x="14" y="130"><tspan fill="#22D3EE">▸ </tspan>SmoothERP</text></g>
@@ -85,14 +85,14 @@
   <circle r="10" fill="#8b0e4c"/><circle r="8" cy="-1.5" fill="#EC4899"/>
 </g>
 <text x="534.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#EC4899">2025</text>
-<text x="534.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">May – Dec 2025</text><g transform="translate(466 104)"><g class="fl" style="animation-delay:-1.20s">
-  <rect y="6" width="136" height="164" rx="12" fill="#610a35"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#8b0e4c"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#EC4899" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#EC4899" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#EC4899"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="534.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">May – Dec 2025</text><g transform="translate(466.0 104)"><g class="fl" style="animation-delay:-1.20s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#610a35"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#8b0e4c"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#EC4899" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#EC4899" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#EC4899"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">Triasols</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#EC4899">FULL-STACK DEV</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#EC4899">▸ </tspan>Scalable APIs</text><text x="14" y="108"><tspan fill="#EC4899">▸ </tspan>NestJS · Prisma</text><text x="14" y="130"><tspan fill="#EC4899">▸ </tspan>Modular design</text></g>
@@ -101,14 +101,14 @@
   <circle r="10" fill="#086a4d"/><circle r="8" cy="-1.5" fill="#10D59A"/>
 </g>
 <text x="682.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#10D59A">2026</text>
-<text x="682.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Jan – Aug 2026</text><g transform="translate(614 104)"><g class="fl" style="animation-delay:-1.60s">
-  <rect y="6" width="136" height="164" rx="12" fill="#054a35"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#086a4d"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#10D59A" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#10D59A"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="682.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Jan – Aug 2026</text><g transform="translate(614.0 104)"><g class="fl" style="animation-delay:-1.60s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#054a35"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#086a4d"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#10D59A" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#10D59A"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">QeemaTech</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#10D59A">FULL-STACK DEV</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#10D59A">▸ </tspan>Orbex · Tarteel AI</text><text x="14" y="108"><tspan fill="#10D59A">▸ </tspan>Stockship · Akfeek</text><text x="14" y="130"><tspan fill="#10D59A">▸ </tspan>Admin dashboards</text></g>
@@ -117,14 +117,14 @@
   <circle r="10" fill="#231895"/><circle r="8" cy="-1.5" fill="#7F75E8"/>
 </g>
 <text x="830.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#7F75E8">2026 → NOW</text>
-<text x="830.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Aug 2026 – now</text><g transform="translate(762 104)"><g class="fl" style="animation-delay:-2.00s">
-  <rect y="6" width="136" height="164" rx="12" fill="#191168"/>
-    <rect y="3.0" width="136" height="164" rx="12" fill="#231895"/>
-    <rect width="136" height="164" rx="12" fill="url(#face)"/>
-    <rect width="136" height="164" rx="12" fill="#7F75E8" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#7F75E8" stroke-opacity=".38"/>
-  <rect width="136" height="4" rx="2" fill="#7F75E8"/>
-  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="830.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Aug 2026 – now</text><g transform="translate(762.0 104)"><g class="fl" style="animation-delay:-2.00s">
+  <rect y="6" width="136.0" height="164" rx="12" fill="#191168"/>
+    <rect y="3.0" width="136.0" height="164" rx="12" fill="#231895"/>
+    <rect width="136.0" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136.0" height="164" rx="12" fill="#7F75E8" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135.0" height="163" rx="11.5" fill="none" stroke="#7F75E8" stroke-opacity=".38"/>
+  <rect width="136.0" height="4" rx="2" fill="#7F75E8"/>
+  <rect width="136.0" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">QeemaTech</text>
   <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#7F75E8">TECH TEAM LEAD</text>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#7F75E8">▸ </tspan>Lead the team</text><text x="14" y="108"><tspan fill="#7F75E8">▸ </tspan>Code review</text><text x="14" y="130"><tspan fill="#7F75E8">▸ </tspan>Architecture</text></g>

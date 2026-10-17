@@ -1,10 +1,12 @@
-# Regenerates every SVG in assets/ whenever the data in scripts/build.py (or the photo) changes.
+# Regenerates every card in assets/ and the README project grid whenever data/profile.yml,
+# the build script or the photo changes. Edit data/profile.yml right on github.com and this does the rest.
 name: Build profile assets
 
 on:
   push:
     branches: [main]
     paths:
+      - data/**
       - scripts/build.py
       - scripts/icons/**
       - assets/profile.jpg
@@ -22,12 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pillow
+      - run: pip install pillow pyyaml
       - run: python scripts/build.py
       - name: Commit regenerated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
+          git add assets README.md README.ar.md
           git diff --cached --quiet || git commit -m "chore: rebuild profile assets"
           git push

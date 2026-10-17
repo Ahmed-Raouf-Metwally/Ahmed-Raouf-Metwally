@@ -43,7 +43,7 @@
   <text x="48" y="28.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">Web app</text>
   <text x="48" y="46.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#22D3EE">Next.js · React</text>
   
-</g></g><g transform="translate(24 156)"><g class="" style="animation-delay:0.0s">
+</g></g><g transform="translate(24 156)"><g class="" style="animation-delay:-2.7s">
   <rect y="5" width="170" height="62" rx="12" fill="#064d58"/>
     <rect y="2.5" width="170" height="62" rx="12" fill="#096e7e"/>
     <rect width="170" height="62" rx="12" fill="url(#face)"/>
@@ -54,7 +54,7 @@
   <text x="48" y="28.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">Mobile app</text>
   <text x="48" y="46.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#22D3EE">iOS · Android</text>
   
-</g></g><g transform="translate(24 242)"><g class="" style="animation-delay:-2.4s">
+</g></g><g transform="translate(24 242)"><g class="" style="animation-delay:0.0s">
   <rect y="5" width="170" height="62" rx="12" fill="#064d58"/>
     <rect y="2.5" width="170" height="62" rx="12" fill="#096e7e"/>
     <rect width="170" height="62" rx="12" fill="url(#face)"/>
@@ -65,7 +65,7 @@
   <text x="48" y="28.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">Super Admin</text>
   <text x="48" y="46.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#22D3EE">Next.js dashboard</text>
   
-</g></g><g transform="translate(300 130)"><g class="fl" style="animation-delay:0.0s">
+</g></g><g transform="translate(300 130)"><g class="fl" style="animation-delay:-2.1s">
   <rect y="5" width="250" height="118" rx="12" fill="#054a35"/>
     <rect y="2.5" width="250" height="118" rx="12" fill="#086a4d"/>
     <rect width="250" height="118" rx="12" fill="url(#face)"/>
@@ -76,7 +76,7 @@
   <text x="58" y="51.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">NestJS API</text>
   <text x="58" y="73.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#10D59A">Node.js · TypeScript · REST</text>
   <text x="16" y="102" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">modules · DTO validation · services</text>
-</g></g><g transform="translate(686 30)"><g class="" style="animation-delay:-1.5s">
+</g></g><g transform="translate(686 30)"><g class="" style="animation-delay:-1.8s">
   <rect y="5" width="210" height="58" rx="12" fill="#042966"/>
     <rect y="2.5" width="210" height="58" rx="12" fill="#063b91"/>
     <rect width="210" height="58" rx="12" fill="url(#face)"/>
@@ -87,7 +87,7 @@
   <text x="48" y="26.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">MySQL</text>
   <text x="48" y="44.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#3B82F6">Prisma / TypeORM</text>
   
-</g></g><g transform="translate(686 104)"><g class="" style="animation-delay:-0.3s">
+</g></g><g transform="translate(686 104)"><g class="" style="animation-delay:-1.5s">
   <rect y="5" width="210" height="58" rx="12" fill="#250582"/>
     <rect y="2.5" width="210" height="58" rx="12" fill="#3508ba"/>
     <rect width="210" height="58" rx="12" fill="url(#face)"/>
@@ -98,7 +98,7 @@
   <text x="48" y="26.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">AI / LLM APIs</text>
   <text x="48" y="44.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#A78BFA">AI-powered features</text>
   
-</g></g><g transform="translate(686 178)"><g class="" style="animation-delay:-0.6s">
+</g></g><g transform="translate(686 178)"><g class="" style="animation-delay:-0.9s">
   <rect y="5" width="210" height="58" rx="12" fill="#563703"/>
     <rect y="2.5" width="210" height="58" rx="12" fill="#7a4f05"/>
     <rect width="210" height="58" rx="12" fill="url(#face)"/>
@@ -109,7 +109,7 @@
   <text x="48" y="26.0" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f4f7fb">Realtime</text>
   <text x="48" y="44.0" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" fill="#F59E0B">WebSockets</text>
   
-</g></g><g transform="translate(300 314)"><g class="" style="animation-delay:-0.9s">
+</g></g><g transform="translate(300 314)"><g class="" style="animation-delay:-1.2s">
   <rect y="5" width="250" height="58" rx="12" fill="#650516"/>
     <rect y="2.5" width="250" height="58" rx="12" fill="#91081f"/>
     <rect width="250" height="58" rx="12" fill="url(#face)"/>
